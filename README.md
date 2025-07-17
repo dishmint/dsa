@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Implementations of DSA in various languages.
+Abstractions + Implementations of data-structure algorithms.
 
 Table of Contents:
 * [Stack](./stack)
