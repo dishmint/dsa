@@ -1,6 +1,8 @@
 # Data Structures and Algorithms
 
-Abstractions + Implementations of data structures and algorithms.
+Abstractions of data structures and algorithms.
+
+Abstractions are written in [jaw](https://github.com/dishmint/jaw), a pseudocode syntax.
 
 Table of Contents:
 + [Arrays](./Arrays)
