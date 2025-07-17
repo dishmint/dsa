@@ -5,7 +5,7 @@
 + Indexed Acces
 
 ## Actions
-+ [get](./spec#get)
-+ [obverse](./spec#obverse)
-+ [reverse](./spec#reverse)
-+ [traverse](./spec#traverse)
++ [get](./spec#Get)
++ [obverse](./spec#Obverse)
++ [reverse](./spec#Reverse)
++ [traverse](./spec#Traverse)
