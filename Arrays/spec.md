@@ -41,7 +41,7 @@
 [^] A position index; Allowing us to reversely scan [V]
 [3] — While [I] > [L]
 [^] — As long as [I] is greater than [L] do the following 
-	[!] — Element `[V]@[I]`
+	[!] — Element `access[ [V], [I] ]`
 	[^] Log the element at index [I] in [V]
 	[1] — [I] -= 1
 	[^] Revance [I] for the next iteration
@@ -76,8 +76,8 @@
 [1] — [L]: an end point = End[ [V] ]
 [2] — [S] += [M]
 [3] — [S] > [L]
-	[T] — [>]: [L]
-	[F] — [>]: [S]
+	[T] — [>]: access[ [V], [L] ]
+	[F] — [>]: access[ [V], [S] ]
 
 /reverse
 	[V]: a vector
@@ -86,8 +86,8 @@
 [1] — [L]: an end point = Start[ [V] ]
 [2] — [S] -= [M]
 [3] — [S] > [L]
-	[T] — [>]: [S]
-	[F] — [>]: [L]
+	[T] — [>]: access[ [V], [S] ]
+	[F] — [>]: access[ [V], [L] ]
 ```
 
 > A traverse scan is like moving toward a house on ths treet, then realizing you need to change direction to a different house.
