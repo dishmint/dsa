@@ -90,4 +90,4 @@
 	[F] — [>]: access[ [V], [L] ]
 ```
 
-> A traverse scan is like moving toward a house on ths treet, then realizing you need to change direction to a different house.
+> A traverse scan is like moving toward a house on the street, then realizing you need to change direction to a different house.
