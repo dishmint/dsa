@@ -8,6 +8,7 @@
 > Accessing an element from a `1D vector` is like having a garage door opener that can target any garage on your street. `[V]`  is the street of houses, `[I]` is the address. Click the opener tuned to address `[I]`, and its contents will be revealed.
 > 
 > Technically,`[V]` takes up a string of addresses in memory/disk. `[I]` points to one of those addresses. So you're requesting a piece of `[V]`, which one? The piece at `[I]`.
+
 # Obverse
 ```
 /obverse
