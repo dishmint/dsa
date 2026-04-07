@@ -1,5 +1,5 @@
 # Access
-```
+```jaw
 /access
 [V]: a 1D vector, [I]: index
 [1] — [V]@[I]
@@ -10,7 +10,7 @@
 > Technically,`[V]` takes up a string of addresses in memory/disk. `[I]` points to one of those addresses. So you're requesting a piece of `[V]`, which one? The piece at `[I]`.
 
 # Obverse
-```
+```jaw
 /obverse
 [V]: a 1D vector
 [1] — [L]: length of [V]
@@ -33,7 +33,7 @@
 > Since `[I]` is a pointer, and `[L]` establishes the boundary of the pointer, why start at the beginning of the street? Good question, `obverse` can be generalized to start and end anywhere (so long as the `[I]`: *the start*, is less than `[L]`: *the end*).
 <!-- TODO: Generalize obverse to scan forward from any start and any end greater than start -->
 # Reverse
-```
+```jaw
 /reverse
 [V]: a vector
 [1] — [L]: an end point = 0
@@ -50,7 +50,7 @@
 > A reverse scan is like going back through the houses just to be sure. This time revancing `[I]`.
 
 # Traverse
-```
+```jaw
 /traverse
 	[V]: a vector
 	[F]: Forward end = Length[ [V] ] - 1
